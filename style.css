@@ -28,3 +28,8 @@
     transform: translate(2px, 2px);
     box-shadow: 4px 4px 0 var(--back-color-dark);
 }
+
+.button2{
+    --back-color: hsl(20, 76%, 50%);
+    --back-color-dark: hsl(20, 70%, 34%);
+}
