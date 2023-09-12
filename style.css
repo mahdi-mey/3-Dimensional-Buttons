@@ -6,3 +6,20 @@
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
 }
+
+.threeDbutton{
+    --back-color: hsl(278, 76%, 50%);
+    --back-color-dark: hsl(278, 70%, 34%);
+
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 20px;
+    background-color: var(--back-color);
+    box-shadow: 6px 6px 0 var(--back-color-dark);
+    transition: all 0.1s ease;
+    cursor: pointer;
+}
