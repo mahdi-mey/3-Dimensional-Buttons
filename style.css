@@ -7,6 +7,10 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+body{
+    padding: 2rem;
+}
+
 .threeDbutton{
     --back-color: hsl(278, 76%, 50%);
     --back-color-dark: hsl(278, 70%, 34%);
